@@ -1,0 +1,110 @@
+
+
+
+.menu-bar{
+    width: 85%;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.title{
+    font-size: 24px;
+
+}
+.container{
+    width: 85%;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     gap: 25px;
+
+
+}
+
+
+.container{
+    margin-bottom: 50px;
+}
+.header-left img {
+    /* opacity: 0.55; */
+    background-image: url(/images/Circle\ design.svg);
+    width: 440px;
+    height: 414px;
+}
+.primary-button{
+    background: #E02C6D;
+border-radius: 41px;
+padding: 12px 24px;
+box-shadow: 0 0 2px;
+color: aliceblue;
+border: none;
+}
+.header-writting{
+    font-size: 16px;
+}
+.header-title{
+    font-size: 52px;
+}
+/* logos */
+
+
+.logos{
+    width: 85%;
+    padding: 30px;
+    
+    /* padding-left: 35px;
+    padding-right: 35px; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    box-shadow: #AAAAAA;
+    
+}
+.company-logo{
+    margin-bottom: 106px;
+}
+/* gadget shop start */
+/*  */
+.popular h2 {
+    
+
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.gadgetshop{
+   
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+.gear h3 {
+    font-size: 28px;
+}
+.gear price{
+    font-size: 24px;
+}
+.gear img{
+    width: 300px;
+height: 256px;
+}
+.gear{
+   
+    padding: 20px;
+    background: #fffcfc;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 213, 213);
+    box-shadow: #AAAAAA;
+    overflow: hidden;
+}
+
